@@ -208,7 +208,6 @@ module = [
     "sentry.api.endpoints.project_rule_preview",
     "sentry.api.endpoints.project_rules_configuration",
     "sentry.api.endpoints.project_servicehook_stats",
-    "sentry.api.endpoints.project_stacktrace_link",
     "sentry.api.endpoints.project_stacktrace_links",
     "sentry.api.endpoints.project_transaction_names",
     "sentry.api.endpoints.rule_snooze",
@@ -627,7 +626,6 @@ module = [
     "tests.sentry.issues.test_utils",
     "tests.sentry.models.test_organizationmember",
     "tests.sentry.replays.test_project_replay_recording_segment_index",
-    "tests.sentry.replays.unit.test_dead_click_issue",
     "tests.sentry.tasks.test_post_process",
 ]
 disable_error_code = [
