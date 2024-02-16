@@ -2462,12 +2462,12 @@
   resolved "https://registry.yarnpkg.com/@sentry-internal/react-inspector/-/react-inspector-6.0.1-4.tgz#10758f3461cf2cf48df8c80f0514c55ca18872c5"
   integrity sha512-uL2RyvW8EqDEchnbo8Hu/c4IpBqM3LLxUpZPHs8o40kynerzPset6bC/m5SU124gEhy4PqjdvJ7DhTYR75NetQ==
 
-"@sentry-internal/rrdom@2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@sentry-internal/rrdom/-/rrdom-2.6.0.tgz#19b5ab7a01ad5031be2d4bcedd4afedb44ee2bed"
-  integrity sha512-XqxOhLk/CdrKh0toOKeQ6mOcjLDK3B1KY/UVqM9VwhdVhiHeMwPj6GjJUoNkEXh0MwkDM0pzIMv95oSq7hGhPg==
+"@sentry-internal/rrdom@2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrdom/-/rrdom-2.11.0.tgz#f7c8f54705ad84ece0e97e53f12e87c687749b32"
+  integrity sha512-BZnkTrbLm9Y3R70W1+8TnImys0RbKsgyB70WQoFdUervGvPw1kLcWJOJrPcDWgVe7nlbG+bEWb6iQrvLqldycw==
   dependencies:
-    "@sentry-internal/rrweb-snapshot" "2.6.0"
+    "@sentry-internal/rrweb-snapshot" "2.11.0"
 
 "@sentry-internal/rrdom@2.9.0":
   version "2.9.0"
@@ -2484,6 +2484,11 @@
     "@sentry-internal/rrweb" "2.9.0"
     "@tsconfig/svelte" "^1.0.0"
 
+"@sentry-internal/rrweb-snapshot@2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-snapshot/-/rrweb-snapshot-2.11.0.tgz#1af79130604afea989d325465b209ac015b27c9a"
+  integrity sha512-1nP22QlplMNooSNvTh+L30NSZ+E3UcfaJyxXSMLxUjQHTGPyM1VkndxZMmxlKhyR5X+rLbxi/+RvuAcpM43VoA==
+
 "@sentry-internal/rrweb-snapshot@2.6.0":
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-snapshot/-/rrweb-snapshot-2.6.0.tgz#1b214c9ab4645138a02ef255c95d811bd852f996"
@@ -2494,12 +2499,12 @@
   resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-snapshot/-/rrweb-snapshot-2.9.0.tgz#f7b682992e70174547c495a4a6deae39136cecf2"
   integrity sha512-oK8L3g41PFli1MpItYIFYCisCB+XjpqbEup0lVyTa/6wvKe0SOxZK9aUb/y03/2onSMmQ+FRkKLL6Kd0gHYJOA==
 
-"@sentry-internal/rrweb-types@2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-types/-/rrweb-types-2.6.0.tgz#e526994125db6684ce9402d96f64318f062bebb0"
-  integrity sha512-mPPumdbyNHF24zShvZqzqgkZRsJHhlNpglGTS0cR/PkX2QdG0CtsPVFpaYj6UQAFGpfb2Aj7VdkKuuzX4RX69w==
+"@sentry-internal/rrweb-types@2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-types/-/rrweb-types-2.11.0.tgz#e598c133b87be1fb04d31d09773b86142b095072"
+  integrity sha512-foCf9DGfN5ffzwykEtIXsV1P5d+XLDVGaQUnKF5ecGn+g5JzKTe/rPC92rL8/gEy2unL5sCTvlYL3DQvUFM4dA==
   dependencies:
-    "@sentry-internal/rrweb-snapshot" "2.6.0"
+    "@sentry-internal/rrweb-snapshot" "2.11.0"
 
 "@sentry-internal/rrweb-types@2.9.0":
   version "2.9.0"
@@ -2508,14 +2513,14 @@
   dependencies:
     "@sentry-internal/rrweb-snapshot" "2.9.0"
 
-"@sentry-internal/rrweb@2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb/-/rrweb-2.6.0.tgz#0976e0d021c965b491a5193546a735f78dad9107"
-  integrity sha512-N+v0cgft/mikwIH5MPIspWNEqHa3E/01rA+IwozTs/TUp2e8sJmF3qxR0+OeBGZU0ln4soG1o18FjsCmadqbeQ==
+"@sentry-internal/rrweb@2.11.0":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb/-/rrweb-2.11.0.tgz#be8e8dfff2acf64d418b625d35a20fdcd7daeb96"
+  integrity sha512-QuEqpKmRDb0xQe9fhJ3j/JHO6uxFMWBowADJBA4rvVU5HbExIg9gor1tZ0b3gDuChXnnx7pxFj9/QXZjQQ75zg==
   dependencies:
-    "@sentry-internal/rrdom" "2.6.0"
-    "@sentry-internal/rrweb-snapshot" "2.6.0"
-    "@sentry-internal/rrweb-types" "2.6.0"
+    "@sentry-internal/rrdom" "2.11.0"
+    "@sentry-internal/rrweb-snapshot" "2.11.0"
+    "@sentry-internal/rrweb-types" "2.11.0"
     "@types/css-font-loading-module" "0.0.7"
     "@xstate/fsm" "^1.4.0"
     base64-arraybuffer "^1.0.1"
@@ -2700,23 +2705,23 @@
   dependencies:
     "@sinonjs/commons" "^2.0.0"
 
-"@spotlightjs/overlay@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@spotlightjs/overlay/-/overlay-1.0.1.tgz#2761cbf1675e19e8fec2a9327ec69a9d11d7841b"
-  integrity sha512-uyL3MMSjPXDjDNw/6Waf98k5lvqccC6VR+vPuLTPf2QTQxr9EQ3y1p4Arbhid9NZ1BXqJfi2cqvXEwj0MvKVxQ==
+"@spotlightjs/overlay@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@spotlightjs/overlay/-/overlay-1.6.0.tgz#b6be228c22e5159b7a0b9c8bfb6ae2b0443743a3"
+  integrity sha512-8QfE8LnpWtsQHGXutuJev8kpfw7tovtkEiLWurT9sMK6t78G00erAc+h3XfI9VIV1tMJxx+FaiG+n5jQs7wVHw==
 
-"@spotlightjs/sidecar@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@spotlightjs/sidecar/-/sidecar-1.1.1.tgz#498d5742628a16e11c0a411e25a7c563eb5e4a52"
-  integrity sha512-fRWQJHwT7r3WlCzGdIyFb+dh88T7aleLd76d7mEUXLRRkqvSZPP2uO48OlBXFJJoATFfm+1XSIedehvlVjHqUw==
+"@spotlightjs/sidecar@1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@spotlightjs/sidecar/-/sidecar-1.4.0.tgz#8cbd7b620e718723a9507c5b7975d7d379685cdd"
+  integrity sha512-onj/phrNtDI8a79zc8jfxJ5BITQk5klO4xSoQXxiYeQWTZcegVeO8VftOVfWPBnMY/axnh+ltxJm/cHaV5SP6Q==
 
-"@spotlightjs/spotlight@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@spotlightjs/spotlight/-/spotlight-1.1.1.tgz#01706182f406a8589e44b4e65ccfcab22999fc5c"
-  integrity sha512-MqGfh/pSa3S7KhnRx09lxKUbpWs02IU5tzYOlDAYd4PBtFVDQ2yDOLahxgxO0v12NE11Wh06aL1KfdNwY+zfdw==
+"@spotlightjs/spotlight@^1.2.12":
+  version "1.2.12"
+  resolved "https://registry.yarnpkg.com/@spotlightjs/spotlight/-/spotlight-1.2.12.tgz#88a24a592c06a36fe82c87f28f6fb45deed1d686"
+  integrity sha512-FHXsKLOatoyG7fKwsxMYPspkS9h/wEIli02GiA98Hg0UqHWZ5UV7xFzlUqaBmr6hbPLnQoc7fcFIN0ATgVJ9ng==
   dependencies:
-    "@spotlightjs/overlay" "1.0.1"
-    "@spotlightjs/sidecar" "1.1.1"
+    "@spotlightjs/overlay" "1.6.0"
+    "@spotlightjs/sidecar" "1.4.0"
 
 "@styled/typescript-styled-plugin@^1.0.0":
   version "1.0.0"
@@ -4582,10 +4587,10 @@ cjs-module-lexer@^1.0.0:
   resolved "https://registry.yarnpkg.com/cjs-module-lexer/-/cjs-module-lexer-1.2.1.tgz#2fd46d9906a126965aa541345c499aaa18e8cd73"
   integrity sha512-jVamGdJPDeuQilKhvVn1h3knuMOZzr8QDnpk+M9aMlCaMkTDd6fBWPhiDqFvFZ07pL0liqabAiuy8SY4jGHeaw==
 
-classnames@2.3.1, classnames@^2.2.6:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
-  integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
+classnames@2.5.1, classnames@^2.2.6:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
+  integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
 
 clean-css@^5.2.2:
   version "5.2.4"
@@ -4865,7 +4870,7 @@ core-util-is@~1.0.0:
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
-cosmiconfig@^7.0.0, cosmiconfig@^7.0.1:
+cosmiconfig@^7.0.0:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-7.0.1.tgz#714d756522cace867867ccb4474c5d01bbae5d6d"
   integrity sha512-a1YWNUV2HwGimB7dU2s1wUMurNKjpx60HxBB6xUM8Re+2s1g1IIfJvFR0/iCF+XHdE0GMTKTuLR32UQff4TEyQ==
@@ -6359,15 +6364,15 @@ foreground-child@^3.1.0:
     cross-spawn "^7.0.0"
     signal-exit "^4.0.1"
 
-fork-ts-checker-webpack-plugin@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-8.0.0.tgz#dae45dfe7298aa5d553e2580096ced79b6179504"
-  integrity sha512-mX3qW3idpueT2klaQXBzrIM/pHw+T0B/V9KHEvNrqijTq9NFnMZU6oreVxDYcf33P8a5cW+67PjodNHthGnNVg==
+fork-ts-checker-webpack-plugin@^9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-9.0.2.tgz#c12c590957837eb02b02916902dcf3e675fd2b1e"
+  integrity sha512-Uochze2R8peoN1XqlSi/rGUkDQpRogtLFocP9+PGu68zk1BDAKXfdeCdyVZpgTk8V8WFVQXdEz426VKjXLO1Gg==
   dependencies:
     "@babel/code-frame" "^7.16.7"
     chalk "^4.1.2"
     chokidar "^3.5.3"
-    cosmiconfig "^7.0.1"
+    cosmiconfig "^8.2.0"
     deepmerge "^4.2.2"
     fs-extra "^10.0.0"
     memfs "^3.4.1"
