@@ -39,7 +39,7 @@ cssutils==2.4.0
 datadog==0.44.0
 distlib==0.3.4
 distro==1.8.0
-django==3.2.23
+django==5.0.2
 django-crispy-forms==1.14.0
 django-csp==3.7
 django-pg-zero-downtime-migrations==0.13
@@ -119,7 +119,7 @@ pep517==0.12.0
 petname==2.6
 phabricator==0.7.0
 phonenumberslite==8.12.55
-pillow==10.0.1
+pillow==10.1.0
 pip-tools==7.1.0
 platformdirs==2.5.2
 pluggy==0.13.1
