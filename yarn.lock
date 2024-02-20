@@ -2868,13 +2868,6 @@
   dependencies:
     "@sentry-internal/rrweb-snapshot" "2.11.0"
 
-"@sentry-internal/rrdom@2.9.0":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@sentry-internal/rrdom/-/rrdom-2.9.0.tgz#dbb30c00a859156e9bfdfe701af85477fa082cbf"
-  integrity sha512-8jULvAmXunPfNChUCOhKSr4rRg7govoH7L/8XuRsK4++wJryjOJDO/zMnway5c3u03PKbFcZFcqCyKjaQQKcHg==
-  dependencies:
-    "@sentry-internal/rrweb-snapshot" "2.9.0"
-
 "@sentry-internal/rrweb-player@2.11.0":
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-player/-/rrweb-player-2.11.0.tgz#abaa899cf52d1ec5a27758165ef4f56b049efbbf"
@@ -2900,13 +2893,6 @@
   dependencies:
     "@sentry-internal/rrweb-snapshot" "2.11.0"
 
-"@sentry-internal/rrweb-types@2.9.0":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-types/-/rrweb-types-2.9.0.tgz#a70450ab7ca9884fd8d70bdb45dc214ed554956e"
-  integrity sha512-s3YhCvXzMM7byAfjHyCWmSOUBDbzUpWHWZj7FR6G8xa3nIrIePceziMc9wxEdqi7nCcmDHPc+kZ2GzDaZIrebA==
-  dependencies:
-    "@sentry-internal/rrweb-snapshot" "2.9.0"
-
 "@sentry-internal/rrweb@2.11.0":
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb/-/rrweb-2.11.0.tgz#be8e8dfff2acf64d418b625d35a20fdcd7daeb96"
@@ -2915,20 +2901,6 @@
     "@sentry-internal/rrdom" "2.11.0"
     "@sentry-internal/rrweb-snapshot" "2.11.0"
     "@sentry-internal/rrweb-types" "2.11.0"
-    "@types/css-font-loading-module" "0.0.7"
-    "@xstate/fsm" "^1.4.0"
-    base64-arraybuffer "^1.0.1"
-    fflate "^0.4.4"
-    mitt "^3.0.0"
-
-"@sentry-internal/rrweb@2.9.0":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb/-/rrweb-2.9.0.tgz#a41af914baaf69c7a1e76d22d1780d50c3dfed0e"
-  integrity sha512-fDPYXWHOwt/PZzOklS17xPsjMsZ6D0K7CX3tvaDE4IkHCHM1PmGJhrXo05NL86WHhRKNKeRT3WQaokrrZzU5zA==
-  dependencies:
-    "@sentry-internal/rrdom" "2.9.0"
-    "@sentry-internal/rrweb-snapshot" "2.9.0"
-    "@sentry-internal/rrweb-types" "2.9.0"
     "@types/css-font-loading-module" "0.0.7"
     "@xstate/fsm" "^1.4.0"
     base64-arraybuffer "^1.0.1"
