@@ -131,7 +131,7 @@
     "marked": "12.0.0",
     "mini-css-extract-plugin": "^2.8.0",
     "mobx": "^6.12.0",
-    "mobx-react": "~7.6.0",
+    "mobx-react": "~9.1.0",
     "mockdate": "3.0.5",
     "moment": "2.29.4",
     "moment-timezone": "0.5.43",
