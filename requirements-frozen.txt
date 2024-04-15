@@ -32,7 +32,7 @@ cssselect==1.0.3
 cssutils==2.9.0
 datadog==0.44.0
 distro==1.8.0
-django==5.0.2
+django==5.0.3
 django-crispy-forms==1.14.0
 django-csp==3.7
 django-pg-zero-downtime-migrations==0.13
@@ -61,7 +61,7 @@ h11==0.14.0
 hiredis==0.3.1
 httpcore==1.0.2
 httpx==0.25.2
-idna==2.10
+idna==3.7
 inflection==0.5.1
 isodate==0.6.1
 jmespath==0.10.0
@@ -81,7 +81,7 @@ parsimonious==0.10.0
 petname==2.6
 phabricator==0.7.0
 phonenumberslite==8.12.55
-pillow==10.2.0
+pillow==10.3.0
 progressbar2==3.41.0
 prompt-toolkit==3.0.41
 proto-plus==1.23.0
